@@ -13,7 +13,7 @@ from Emilia.utils.decorators import *
 from Emilia.tele.clone import startpic
 
 START_TEXT = """
-Welcome to [{} :3]({})
+Welcome to [{} ]({})
 
 This bot give varieties of features such as
 ➩ Group Management
@@ -41,7 +41,7 @@ async def starttt(client, message):
                     InlineKeyboardButton("News", url=f"https://t.me/{UPDATE_CHANNEL}"),
                 ],
                 [InlineKeyboardButton("How to Clone?", callback_data="clone_help")],
-                [InlineKeyboardButton("Source Code", url="https://github.com/ArshCypherZ/Emilia")],
+                [InlineKeyboardButton("ANIME CHANNEL", url="https://t.me/ANIELITETELUGU")],
             ]
             
             await message.reply_text(
@@ -147,7 +147,7 @@ async def callback_query_handler(client, callback_query):
 
 
 clone_help = """
-Emilia Clones are exact replicas of @Elf_Robot but with a personalized name and profile picture, ensuring enhanced performance and stability.
+Anya Clones are exact replicas of @ANYAGMBOT but with a personalized name and profile picture, ensuring enhanced performance and stability.
 
 Clones inherit all functionalities, updates, and database entries from the original bot. When switching between clones in a group, there's no need to reconfigure settings.
 
@@ -157,7 +157,7 @@ Clones inherit all functionalities, updates, and database entries from the origi
 3. Choose a name for your clone.
 4. Select a username for your clone.
 5. Copy the API token provided by @BotFather.
-6. Send the API token to Emilia via private message using `/clone [apitokenhere]`. Ensure to remove '[ ]'.
+6. Send the API token to Anya via private message using `/clone [apitokenhere]`. Ensure to remove '[ ]'.
 7. You're all set!
 
 To modify the profile picture of your clone, send /setuserpic to @BotFather, choose the clone, and upload the new image.
