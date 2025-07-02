@@ -11,8 +11,8 @@ class Config(object):
     API_HASH = "72095ec36984aa9ceb0dbaa9cec31559" # API_HASH from my.telegram.org
     API_ID = 20366634 # API_ID from my.telegram.org
 
-    BOT_ID = 7322375393 # BOT_ID
-    BOT_USERNAME = "Ainagroupmanagementbot" # BOT_USERNAME
+    BOT_ID = 7817584703 # BOT_ID
+    BOT_USERNAME = "ANYAGMBOT" # BOT_USERNAME
 
     MONGO_DB_URL = "mongodb+srv://rohitreddyathuru:R6Co7MOjTYQOAqcq@cluster0.xrwjpl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" # MongoDB URL from MongoDB Atlas
 
@@ -20,7 +20,7 @@ class Config(object):
     UPDATE_CHANNEL = "ANIELITETELUGU" # Update Channel Username
     START_PIC = "https://ibb.co/b5z87GR6" # Start Image
     DEV_USERS = [7845335174] # Dev Users
-    TOKEN = "7322375393:AAEQffi2-2-nYw6g4orO8gQCaLuX9O20twU" # Bot Token from @BotFather
+    TOKEN = "7817584703:AAE-Z1dw7YwGpR4r3tu4KLJEJqjd423kBO0" # Bot Token from @BotFather
     CLONE_LIMIT = 50 # Number of clones your bot can make
 
     EVENT_LOGS = -1002640844591 # Event Logs Chat ID
